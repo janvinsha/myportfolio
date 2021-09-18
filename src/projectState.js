@@ -19,6 +19,11 @@ import capture2 from "./images/capture2.png";
 import capture3 from "./images/capture3.png";
 import capture4 from "./images/capture4.png";
 
+import mobileWandart from "./images/mobileWandart.png";
+import mobileJvs from "./images/mobileJvs.png";
+import mobileCapture from "./images/mobileCapture.png";
+import mobileIgnite from "./images/mobileIgnite.png";
+
 export const ProjectState = () => {
   return [
     {
@@ -29,6 +34,7 @@ export const ProjectState = () => {
       about: "",
       builtUsing: "",
       mainImg: wandart3,
+      mobileImg: mobileWandart,
       images: [wandart2, wandart1, wandart4],
       details:
         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
@@ -39,6 +45,7 @@ export const ProjectState = () => {
       url: "/project/janvinsha-stores",
       liveLink: "https://janvinshastores.herokuapp.com",
       mainImg: jvs1,
+      mobileImg: mobileJvs,
       images: [jvs2, jvs3, jvs4],
     },
     {
@@ -47,6 +54,7 @@ export const ProjectState = () => {
       url: "/project/ignite",
       liveLink: "https://jvsignite.herokuapp.com",
       mainImg: ignite2,
+      mobileImg: mobileIgnite,
       images: [ignite1, ignite3, ignite4],
     },
     {
@@ -55,6 +63,7 @@ export const ProjectState = () => {
       url: "/project/capture",
       liveLink: "https://jvscapture.herokuapp.com",
       mainImg: capture1,
+      mobileImg: mobileCapture,
       images: [capture2, capture3, capture4],
     },
   ];
