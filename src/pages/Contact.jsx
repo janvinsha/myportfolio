@@ -113,12 +113,16 @@ const Contact = () => {
                 key: process.env.REACT_APP_API_KEY,
               }}
               defaultCenter={{
-                lat: 7.33333,
-                lng: 8.75,
+                lat: 7.7292535,
+                lng: 8.4858848,
               }}
               defaultZoom={6}
             >
-              <AnyReactComponent lat={7.33333} lng={8.75} text="My Marker" />
+              <AnyReactComponent
+                lat={7.7292535}
+                lng={8.4858848}
+                text="My Marker"
+              />
             </GoogleMapReact>
           </motion.div>
         </motion.div>
