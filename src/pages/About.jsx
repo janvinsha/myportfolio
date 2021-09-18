@@ -22,7 +22,7 @@ import Meta from "../components/Meta";
 import ScrollToTop from "../components/ScrollToTop";
 import Footer from "../components/Footer";
 //Image
-import aImg from "../images/home.jpg";
+import aImg from "../images/abo.jpg";
 const About = () => {
   const { theme, setTheme } = useContext(ThemeContext);
   const line =
