@@ -20,7 +20,7 @@ import Meta from "../components/Meta";
 import ScrollToTop from "../components/ScrollToTop";
 import Footer from "../components/Footer";
 //Image
-import homeImg from "../images/home.jpg";
+import homeImg from "../images/cherry-685.png";
 //Icons
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
@@ -95,6 +95,7 @@ const Home = () => {
             </div>
           </Hide>
         </div>
+
         <Image>
           <motion.img variants={photoAnim} src={homeImg} alt="photo" />
         </Image>
@@ -336,12 +337,20 @@ const Image = styled.div`
   z-index: 2;
   width: 50%;
   overflow: hidden;
+
+  display: flex;
+  justify-content: center;
   @media (max-width: 900px) {
     width: 100%;
+    padding: 1rem 0rem;
   }
   img {
-    width: 100%;
-    height: 20rem;
+    width: auto;
+    @media (max-width: 900px) {
+      width: 88%;
+      height: auto;
+    }
+    height: 23rem;
     object-fit: cover;
     border-radius: 5px;
   }

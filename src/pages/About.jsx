@@ -22,7 +22,7 @@ import Meta from "../components/Meta";
 import ScrollToTop from "../components/ScrollToTop";
 import Footer from "../components/Footer";
 //Image
-import aImg from "../images/a.jpg";
+import aImg from "../images/home.jpg";
 const About = () => {
   const { theme, setTheme } = useContext(ThemeContext);
   const line =
@@ -123,7 +123,7 @@ const Image = styled.div`
     width: 90%;
     @media screen and (max-width: 900px) {
       width: 100%;
-      height: 18rem;
+      height: 20rem;
     }
     height: 35rem;
     object-fit: cover;
