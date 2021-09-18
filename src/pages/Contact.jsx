@@ -17,15 +17,22 @@ import Meta from "../components/Meta";
 import { useScroll } from "../components/useScroll";
 import ScrollToTop from "../components/ScrollToTop";
 import Footer from "../components/Footer";
+import LocationOnIcon from "@material-ui/icons/LocationOn";
 const mapStyles = {
   width: "100%",
   height: "100%",
 };
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+
+const AnyReactComponent = ({ text }) => (
+  <div>
+    <LocationOnIcon style={{ color: "#50c1e9;", fontSize: "2rem" }} />
+  </div>
+);
 const Contact = () => {
   const { theme, setTheme } = useContext(ThemeContext);
 
   const [element, controls] = useScroll();
+
   return (
     <StyledContact
       exit="exit"
@@ -61,7 +68,9 @@ const Contact = () => {
             <motion.h3 variants={titleAnim}>EMAIL</motion.h3>
           </Hide>
           <Hide>
-            <motion.h4 variants={titleAnim}>janvinsha@gmail.com</motion.h4>
+            <motion.h4 variants={titleAnim}>
+              <a href="mailto:janvinsha@gmail.com">janvinsha@gmail.com</a>
+            </motion.h4>
           </Hide>
         </motion.span>
 
@@ -101,13 +110,13 @@ const Contact = () => {
           >
             <GoogleMapReact
               bootstrapURLKeys={{
-                key: "AIzaSyBqVuO_1WdmcjAOAtceXrfglWVQPLF7JQA",
+                key: process.env.REACT_APP_API_KEY,
               }}
               defaultCenter={{
                 lat: 7.33333,
                 lng: 8.75,
               }}
-              defaultZoom={5}
+              defaultZoom={6}
             >
               <AnyReactComponent lat={7.33333} lng={8.75} text="My Marker" />
             </GoogleMapReact>
