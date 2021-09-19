@@ -45,21 +45,46 @@ const Contact = () => {
       <ScrollToTop />
 
       <motion.div className="in-touch">
-        <Hide>
+        <Hide className="desk">
           <motion.h2 variants={titleAnim}>Let's Get In Touch</motion.h2>
         </Hide>
         <Hide>
-          <motion.h3 variants={imgAnim}>
+          <motion.h3 variants={imgAnim} className="desk">
             Doesn't matter if you just want to chat or offer a job,
           </motion.h3>
         </Hide>
         <Hide>
-          <motion.h3 variants={imgAnim}>
+          <motion.h3 variants={imgAnim} className="desk">
             feel free to contact me either on social media
           </motion.h3>
         </Hide>
         <Hide>
-          <motion.h3 variants={imgAnim}>or via my contact details.</motion.h3>
+          <motion.h3 variants={imgAnim} className="desk">
+            or via my contact details.
+          </motion.h3>
+        </Hide>
+        <Hide className="mobile">
+          <motion.h2 variants={titleAnim}>Let's Get In Touch</motion.h2>
+        </Hide>
+        <Hide>
+          <motion.h3 variants={titleAnim} className="mobile">
+            Doesn't matter if you just want to chat
+          </motion.h3>
+        </Hide>
+        <Hide>
+          <motion.h3 variants={titleAnim} className="mobile">
+            or offer a job, feel free to contact
+          </motion.h3>
+        </Hide>
+        <Hide>
+          <motion.h3 variants={titleAnim} className="mobile">
+            me either on social media or
+          </motion.h3>
+        </Hide>
+        <Hide>
+          <motion.h3 variants={titleAnim} className="mobile">
+            via my contact details.
+          </motion.h3>
         </Hide>
       </motion.div>
       <motion.div className="contacts">
@@ -136,6 +161,18 @@ const StyledContact = styled(motion.div)`
   .in-touch {
     padding: 3rem 5rem;
     width: 50%;
+    .mobile {
+      display: none;
+      @media (max-width: 900px) {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .desk {
+      @media (max-width: 900px) {
+        display: none;
+      }
+    }
     @media screen and (max-width: 900px) {
       padding: 0rem 1rem;
       width: 100%;
@@ -163,12 +200,14 @@ const StyledContact = styled(motion.div)`
       padding: 1rem 1rem;
       padding-bottom: 1rem;
       flex-flow: column wrap;
+      align-items: center;
     }
     span {
       display: flex;
       flex-flow: column wrap;
       @media screen and (max-width: 900px) {
         padding: 0.6rem 0rem;
+        align-items: center;
       }
 
       h3 {

@@ -26,7 +26,7 @@ import aImg from "../images/abo.jpg";
 const About = () => {
   const { theme, setTheme } = useContext(ThemeContext);
   const line =
-    "Full Stack Javascript / solidity developer with 3years experience in programming. Specialties in Html, Css, Sass, JQuery, Styled-components, Framer-motion, React, Redux, React Context, MVC Architecture, Test Driven Development (TDD), Nodejs, Mongodb, Solidity, Ganache, Truffle, Hardhat, Web3, React Native";
+    "Full Stack Javascript / solidity developer with 3years experience in programming. Specialties in React, Redux, React Context, Html, Css, Sass, JQuery, Styled-components, Framer-motion, Figma, Adobe illustrator, MVC Architecture, Test Driven Development (TDD), Git, Nodejs, Mongodb, Solidity, Ganache, Truffle, Hardhat, Web3, React Native";
   return (
     <StyledAbout
       exit="exit"
