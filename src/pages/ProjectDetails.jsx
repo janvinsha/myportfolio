@@ -85,37 +85,32 @@ const ProjectDetail = () => {
             </Hide>
 
             <Navigation>
-              {project.title != "Wandart" && (
+              {project.title != projects[0].title && (
                 <span
                   className="previous"
                   onClick={() => {
-                    project.title == "Capture"
-                      ? history.push(`/project/ignite`)
-                      : project.title == "Ignite"
-                      ? history.push(`/project/janvinsha-stores`)
-                      : project.title == "Janvinsha Stores"
-                      ? history.push(`/project/wandart`)
-                      : history.push(`/project/wandart`);
+                    let indexEle = projects.findIndex(
+                      (element) => element.title == project.title
+                    );
+                    history.push(projects[indexEle - 1].url);
                   }}
                 >
-                  <ArrowBackIosIcon className="icon" />{" "}
+                  <ArrowBackIosIcon className="icon" />
                   <h3>Previous Project</h3>
                 </span>
               )}
-              {project.title != "Capture" && (
+              {project.title != projects[projects.length - 1].title && (
                 <span
                   className="next"
                   onClick={() => {
-                    project.title == "Wandart"
-                      ? history.push(`/project/janvinsha-stores`)
-                      : project.title == "Janvinsha Stores"
-                      ? history.push(`/project/ignite`)
-                      : project.title == "Ignite"
-                      ? history.push(`/project/capture`)
-                      : history.push(`/project/wandart`);
+                    let indexEle = projects.findIndex(
+                      (element) => element.title == project.title
+                    );
+                    history.push(projects[indexEle + 1].url);
                   }}
                 >
-                  <h3>Next Project</h3> <ArrowForwardIosIcon className="icon" />
+                  <h3>Next Project</h3>
+                  <ArrowForwardIosIcon className="icon" />
                 </span>
               )}
             </Navigation>
@@ -241,6 +236,7 @@ const Navigation = styled(motion.div)`
   justify-content: center;
   span {
     display: flex;
+    align-items: center;
     padding: 0rem 1rem;
     cursor: pointer;
     &:hover {

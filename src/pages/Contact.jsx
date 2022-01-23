@@ -134,9 +134,11 @@ const Contact = () => {
             initial="hidden"
           >
             <GoogleMapReact
-              bootstrapURLKeys={{
-                key: process.env.REACT_APP_API_KEY,
-              }}
+              bootstrapURLKeys={
+                {
+                  // key: process.env.REACT_APP_API_KEY,
+                }
+              }
               defaultCenter={{
                 lat: 7.7292535,
                 lng: 8.4858848,

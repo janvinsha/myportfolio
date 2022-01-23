@@ -24,6 +24,18 @@ import mobileJvs from "./images/mobileJvs.png";
 import mobileCapture from "./images/mobileCapture.png";
 import mobileIgnite from "./images/mobileIgnite.png";
 
+import wave1 from "./images/wave1.png";
+import wave2 from "./images/wave2.png";
+import wave3 from "./images/wave3.png";
+
+import nft1 from "./images/nft1.png";
+import nft2 from "./images/nft2.png";
+
+import dao1 from "./images/Dao1.png";
+import dao2 from "./images/Dao2.png";
+
+import market1 from "./images/market1.png";
+
 export const ProjectState = () => {
   return [
     {
@@ -37,7 +49,7 @@ export const ProjectState = () => {
       mobileImg: mobileWandart,
       images: [wandart2, wandart1, wandart4],
       details:
-        "Wandart is a wallpaper and art community web application, The Frontend is built using React, Redux, Figma, Adobe illustrator, Framer-motion, Styled-components, Material-UI, Bootstrap, Font-awesome icons, Axios for fetching data from the REST-Api. The Backend is a REST-Api built using Node.js, MongoDB, Cloudinary storage, Coinbase payment, Paystack payment, JSON web tokens, the API is highly secured againts XSS attacks, DOS attacks, NoSQL injection attacks and well authenticated using JSON web tokens. There is availability for subscription service which is well authenticated using webhooks from both Coinbase and Paystack payments",
+        "Wandart is a wallpaper and art community web application, The Frontend is built using React, Redux, Figma, Adobe illustrator, Framer-motion, Styled-components, Material-UI, Bootstrap, Font-awesome icons, Axios for fetching data from the REST-Api. The Backend is a REST-Api built using Node.js, MongoDB, Cloudinary storage, Coinbase payment, Paystack payment, JSON web tokens, the API is highly secured againts XSS attacks, DOS attacks, NoSQL injection attacks and well authenticated using JSON web tokens. There is availability for subscription service which is well authenticated using webhooks from both Coinbase and Paystack payments.",
     },
     {
       title: "Janvinsha Stores",
@@ -48,7 +60,51 @@ export const ProjectState = () => {
       mobileImg: mobileJvs,
       images: [jvs2, jvs3, jvs4],
       details:
-        "Janvinsha Stores is an e-commerce web application, The Frontend is built using React, Redux, Figma, Framer-motion, Styled-components, Bootstrap, Font-awesome icons, Axios for fetching data from the REST-Api. The Backend is a REST-Api built using Node.js, MongoDB, Cloudinary storage, Paystack payment, JSON web tokens, the API is highly secured againts XSS attacks, DOS attacks, NoSQL injection attacks and well authenticated using JSON web tokens  ",
+        "Janvinsha Stores is an e-commerce web application, The Frontend is built using React, Redux, Figma, Framer-motion, Styled-components, Bootstrap, Font-awesome icons, Axios for fetching data from the REST-Api. The Backend is a REST-Api built using Node.js, MongoDB, Cloudinary storage, Paystack payment, JSON web tokens, the API is highly secured againts XSS attacks, DOS attacks, NoSQL injection attacks and well authenticated using JSON web tokens.  ",
+    },
+    {
+      title: "NFT Collection",
+      subTitle: "Connect your wallet and say Hello to me",
+      url: "/project/nft-collection",
+      liveLink: "https://nft-starter-project.jandevincent.repl.co/",
+      mainImg: nft1,
+      mobileImg: nft2,
+      images: [nft1],
+      details:
+        "An NFT collection created using openzeppelin and hardhat environment, deployed on Rinkeby Testnet. The Frontend is created using React, ethers is used to connect to the smart contract, collection can be viewed on Open Sea.",
+    },
+    {
+      title: "DemonSlayerDAO",
+      subTitle: "A DAO build with using ThirdWeb and React",
+      url: "/project/dao",
+      liveLink: "https://demonslayerdao.netlify.app/",
+      mainImg: dao1,
+      mobileImg: dao2,
+      images: [dao1],
+      details:
+        "A decentralized autonomous organization created using ThirdWeb, a platform where smart contracts can be created with various or no language. A membership NFT and a governance token was created to enable users who have the NFT and token Vote on proposals. The token was Airdropped to early users. ",
+    },
+    {
+      title: "Wave",
+      subTitle: "Connect your wallet and say Hello to me",
+      url: "/project/wave",
+      liveLink: "https://waveportal-starter-project.jandevincent.repl.co/",
+      mainImg: wave1,
+      mobileImg: wave2,
+      images: [wave1],
+      details:
+        "A decentralized application where users can connect wallet and anonymously send me a message. The smart contract was created using openzeppelin and hardhat environment.  The Frontend is created using React, ethers is used to connect to the smart contract.",
+    },
+    {
+      title: "NFT Market",
+      subTitle: "An NFT market on Polygon Network",
+      url: "/project/nft-market",
+      liveLink: "https://github.com/janvinsha/nft-market",
+      mainImg: market1,
+      mobileImg: market1,
+      images: [market1],
+      details:
+        "NFT market place created using hardhat, solidity, openzeppelin and frontend created using Next.js and tailwind css. The project is not yet complete as I am still working on the UI.",
     },
     {
       title: "Ignite",
@@ -59,7 +115,7 @@ export const ProjectState = () => {
       mobileImg: mobileIgnite,
       images: [ignite1, ignite3, ignite4],
       details:
-        "Ignite is a website built to give information about games. In this website you can search for games and also see the recently released games and upcoming games. The website was built using React, Redux, Figma, Framer-motion, Font-awesome icons, Axios for fetching data from Rawg io Api ",
+        "Ignite is a website built to give information about games. In this website you can search for games and also see the recently released games and upcoming games. The website was built using React, Redux, Figma, Framer-motion, Font-awesome icons, Axios for fetching data from Rawg io Api. ",
     },
     {
       title: "Capture",
@@ -70,7 +126,7 @@ export const ProjectState = () => {
       mobileImg: mobileCapture,
       images: [capture2, capture3, capture4],
       details:
-        "Capture is a demo portfolio site built to show my skill in React, it was built using React, Framer-motion, Styled-components, Font-awesome icons and Figma",
+        "Capture is a demo portfolio site built to show my skill in React, it was built using React, Framer-motion, Styled-components, Font-awesome icons and Figma.",
     },
   ];
 };

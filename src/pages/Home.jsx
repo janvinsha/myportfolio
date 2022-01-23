@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { motion } from "framer-motion";
-import styled, { ThemeConsumer } from "styled-components";
+import styled from "styled-components";
 import {
   pageAnimation,
   titleAnim,
@@ -14,28 +14,18 @@ import {
 } from "../animation";
 //Contect
 import ThemeContext from "../context/themeContext";
-
-import { useScroll } from "../components/useScroll";
-import Meta from "../components/Meta";
-import ScrollToTop from "../components/ScrollToTop";
-import Footer from "../components/Footer";
+import { Meta, ScrollToTop, Footer, Card } from "../components";
 //Image
 import homeImg from "../images/cherry-685.png";
 //Icons
-import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
+
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 import { ProjectState } from "../projectState";
 const Home = () => {
   const { theme, setTheme } = useContext(ThemeContext);
   const history = useHistory();
-  const [element, controls] = useScroll();
-  const [element2, controls2] = useScroll();
-  const [element3, controls3] = useScroll();
-  const [element4, controls4] = useScroll();
-  const [project1, setProject1] = useState(ProjectState()[0]);
-  const [project2, setProject2] = useState(ProjectState()[1]);
-  const [project3, setProject3] = useState(ProjectState()[2]);
-  const [project4, setProject4] = useState(ProjectState()[3]);
+
+  const [projects, setProjects] = useState(ProjectState());
 
   return (
     <StyledHome
@@ -105,69 +95,12 @@ const Home = () => {
           <motion.h2 variants={toDownAnim}>Top Projects</motion.h2>
         </Hide>
         <ProjectList>
-          <motion.div
-            className="project"
-            variants={cardLeftAnim}
-            ref={element}
-            animate={controls}
-            initial="hidden"
-          >
-            <Link to="/project/wandart">
-              <motion.div className="card">
-                <img src={project1.mainImg} alt="photo" />
-                <ArrowRightAltIcon className="ico" />
-                <span className="title">{project1.title}</span>
-              </motion.div>
-            </Link>
-          </motion.div>
-          <motion.div
-            className="project"
-            variants={fade}
-            ref={element2}
-            animate={controls2}
-            initial="hidden"
-          >
-            {" "}
-            <Link to="/project/janvinsha-stores">
-              <motion.div className="card">
-                <img src={project2.mainImg} alt="photo" />
-                <ArrowRightAltIcon className="ico" />
-                <span className="title">{project2.title}</span>
-              </motion.div>
-            </Link>
-          </motion.div>
-          <motion.div
-            className="project"
-            variants={cardLeftAnim}
-            ref={element3}
-            animate={controls3}
-            initial="hidden"
-          >
-            {" "}
-            <Link to="/project/ignite">
-              <motion.div className="card">
-                <img src={project3.mainImg} alt="photo" />
-                <ArrowRightAltIcon className="ico" />
-                <span className="title">{project3.title}</span>
-              </motion.div>
-            </Link>
-          </motion.div>
-          <motion.div
-            className="project"
-            variants={fade}
-            ref={element4}
-            animate={controls4}
-            initial="hidden"
-          >
-            {" "}
-            <Link to="/project/capture">
-              <motion.div className="card">
-                <img src={project4.mainImg} alt="photo" />
-                <ArrowRightAltIcon className="ico" />
-                <span className="title">{project4.title}</span>
-              </motion.div>
-            </Link>
-          </motion.div>
+          {projects.map((project, index) => (
+            <Card
+              project={project}
+              variants={index % 2 == 0 ? cardLeftAnim : cardRightAnim}
+            />
+          ))}
         </ProjectList>
       </motion.div>
       <Footer />
@@ -275,7 +208,10 @@ const ProjectList = styled(motion.div)`
   grid-column-gap: 0.6rem;
   grid-row-gap: 0.6rem;
   padding: 0rem 0rem;
-
+  @media (max-width: 900px) {
+    display: flex;
+    flex-flow: column;
+  }
   .project {
     height: 20rem;
     @media (max-width: 900px) {
@@ -355,7 +291,9 @@ const Image = styled.div`
     border-radius: 5px;
   }
 `;
+
 const Hide = styled.div`
   overflow: hidden;
 `;
+
 export default Home;
