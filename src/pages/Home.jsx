@@ -47,12 +47,12 @@ const Home = () => {
           <Hide>
             <motion.h2 variants={titleAnim} className="desk">
               {" "}
-              A Full-Stack Javascript /
+              A Full Stack Blockchain /
             </motion.h2>
           </Hide>
           <Hide>
             <motion.h2 variants={titleAnim} className="desk">
-              Solidity Developer
+              Javascript Engineer
             </motion.h2>
             <Hide className="mobile">
               <motion.h2 variants={titleAnim}>

@@ -26,7 +26,7 @@ import aImg from "../images/abo.jpg";
 const About = () => {
   const { theme, setTheme } = useContext(ThemeContext);
   const line =
-    "Full Stack Javascript / solidity developer with 3years experience in programming. Specialties in React, Redux, React Context, Html, Css, Sass, JQuery, Styled-components, Framer-motion, Figma, Adobe illustrator, MVC Architecture, Test Driven Development (TDD), Git, Nodejs, Mongodb, Solidity, Ganache, Truffle, Hardhat, Web3, React Native";
+    "Full Stack Blockchain / Javascript Engineer with 3years experience in programming. Specialties in React, Redux, Html, Css, Javacript, MVC Architecture, Test Driven Development (TDD), Git, Nodejs, Mongodb, Solidity, Ganache, Truffle, Hardhat, Web3, React Native";
   return (
     <StyledAbout
       exit="exit"
@@ -48,11 +48,11 @@ const About = () => {
 
           <Hide>
             <motion.h2 variants={titleAnim}>
-              Full Stack Javascript / Solidity
+              Full Stack Blockchain / Javascript
             </motion.h2>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnim}>Developer</motion.h2>
+            <motion.h2 variants={titleAnim}>Engineer</motion.h2>
           </Hide>
           <Hide>
             <motion.h3 variants={sentence}>

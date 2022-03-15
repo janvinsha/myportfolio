@@ -36,21 +36,61 @@ import dao2 from "./images/Dao2.png";
 
 import market1 from "./images/market1.png";
 
+import sc1 from "./images/sc1.png";
+import sc2 from "./images/sc1.png";
+import bm from "./images/bm.png";
+
+import zn3 from "./images/zn3.png";
+import zm1 from "./images/zm1.png";
+
+import bns1 from "./images/bns1.png";
 export const ProjectState = () => {
   return [
+    {
+      title: "Brainly",
+      subTitle: "An interactive web3 game",
+      url: "/project/brainly",
+      liveLink: "https://brainly-game.netlify.app/",
+      mainImg: sc1,
+      mobileImg: bm,
+      details:
+        "A highly interactive game where user mint a membership token to get access, play and compete with each other for the top position which is displayed on the dashboard",
+    },
+    {
+      title: "Zenith Market",
+      subTitle:
+        "An NFT market built using Moralis and depolyed to the Polygon Mumbai testnet",
+      url: "/project/zenith-market",
+      liveLink: "https://zenith-market.netlify.app/",
+      mainImg: zm1,
+      mobileImg: zn3,
+      details: "A community driven NFT marketplace",
+    },
     {
       title: "Wandart",
       subTitle: "The fastest growing wallpaper and art community",
       url: "/project/wandart",
-      liveLink: "https://wandart.art",
+      liveLink: "https://github.com/Janvinsha",
       about: "",
       builtUsing: "",
       mainImg: wandart3,
       mobileImg: mobileWandart,
       images: [wandart2, wandart1, wandart4],
       details:
-        "Wandart is a wallpaper and art community web application, The Frontend is built using React, Redux, Figma, Adobe illustrator, Framer-motion, Styled-components, Material-UI, Bootstrap, Font-awesome icons, Axios for fetching data from the REST-Api. The Backend is a REST-Api built using Node.js, MongoDB, Cloudinary storage, Coinbase payment, Paystack payment, JSON web tokens, the API is highly secured againts XSS attacks, DOS attacks, NoSQL injection attacks and well authenticated using JSON web tokens. There is availability for subscription service which is well authenticated using webhooks from both Coinbase and Paystack payments.",
+        "Wandart is a wallpaper and art community web application, The Frontend is built using React, Redux, Figma, Adobe illustrator, Framer-motion, Styled-components, Material-UI, Bootstrap, Font-awesome icons, Axios for fetching data from the REST-Api. The Backend is a REST-Api built using Node.js, MongoDB, Cloudinary storage, Coinbase payment, Paystack payment, JSON web tokens, the API is highly secured againts XSS attacks, DOS attacks, NoSQL injection attacks and well authenticated using JSON web tokens. There is availability for subscription service which is well authenticated using webhooks from both Coinbase and Paystack payments. This project is undergoing maintenance and as such down",
     },
+    {
+      title: "Buidl Domain Service",
+      subTitle:
+        "An NFT market built using Moralis and depolyed to the Polygon Mumbai testnet",
+      url: "/project/buidl-dns",
+      liveLink: "http://buidl-domain-service-frontend.vercel.app/",
+      mainImg: bns1,
+      mobileImg: bns1,
+      details:
+        "This is a domain service Web3 Dapp where you can mint domains and set records for domains, domains minted can be viewed on OpenSea as NFT's",
+    },
+
     {
       title: "Janvinsha Stores",
       subTitle: "An E-commerce website",
