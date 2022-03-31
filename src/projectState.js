@@ -44,8 +44,22 @@ import zn3 from "./images/zn3.png";
 import zm1 from "./images/zm1.png";
 
 import bns1 from "./images/bns1.png";
+
+import somob from "./images/somo1.png";
+import so1 from "./images/so1.png";
 export const ProjectState = () => {
   return [
+    {
+      title: "SpeakOut",
+      subTitle:
+        "SpeakOut is a web3 social media platform where users can connect and share their experiences",
+      url: "/project/speakout",
+      liveLink: "https://speak-out.netlify.app/",
+      mainImg: so1,
+      mobileImg: somob,
+      details:
+        "This project is a blockchain social media application where users connect and share their experiences, users can decide to go anonymous too. The web application allows users to make posts, shorts(short videos, uploaded using LivePeer API), create comments, collect comments and posts which is stored in the users library, edit profile, follow users, etc. The web application uses Lens Protocol which is a Web3 social graph on the Polygon Proof-of-Stake blockchain for almost all app data. Lens Api is used throughout the application to give users seamless experience in interacting with the blockchain.",
+    },
     {
       title: "Brainly",
       subTitle: "An interactive web3 game",
