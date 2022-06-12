@@ -47,8 +47,21 @@ import bns1 from "./images/bns1.png";
 
 import somob from "./images/somo1.png";
 import so1 from "./images/so1.png";
+
+import unre from "./images/unre.png";
 export const ProjectState = () => {
   return [
+    {
+      title: "Unreal Market",
+      subTitle:
+        "This Marketplace is truly unreal, users can create collections and add Nfts to that collection, edit their profile, and comment on their favorite Nfts. Users can buy crypto using fiat and also cross swap tokens to fit their spending needs on the marketplace. This marketplace tries to fit in all the needs of the user without necessarily moving to another Dapp",
+      url: "/project/unreal-market",
+      liveLink: "http://unreal-market.netlify.app/",
+      mainImg: unre,
+      mobileImg: unre,
+      details:
+        "A lot of sponsors' technologies were used as they were beneficial to the project. Two smart contracts were written, one deployed using Hardhart to POLYGON Mumbai tesnet, the other an airdrop contract which utilizes WORLDCOIN deployed using ZSYNC. 3 sponsors tech was integrated for login WALLETCONNECT, UNSTOPPABLE DOMAINS, and COINBASE WALLET. IPFS was used to upload all NFT and image data. A subgraph was created using THEGRAPH to query blockchain data. TRANSAK was integrated to allow users buy crypto using Fiat currency. SWING was used to build a cross chain swap. WAKU was used to allow users to comment on NFT. COVALENT was used to query NFT transaction history data",
+    },
     {
       title: "SpeakOut",
       subTitle:
