@@ -112,7 +112,7 @@ const Contact = () => {
             <motion.h3 variants={titleAnim}>LOCATION</motion.h3>
           </Hide>
           <Hide>
-            <motion.h4 variants={titleAnim}>Benue, Nigeria</motion.h4>
+            <motion.h4 variants={titleAnim}>Abuja, Nigeria</motion.h4>
           </Hide>
         </motion.span>
         <motion.span>

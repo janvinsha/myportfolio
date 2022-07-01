@@ -11,7 +11,7 @@ import {
   faTimes,
 } from "@fortawesome/free-solid-svg-icons";
 //Image
-import Dp from "../images/dp.jpg";
+import Dp from "../images/abo.png";
 //Context
 import ThemeContext from "../context/themeContext";
 

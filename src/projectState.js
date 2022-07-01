@@ -97,7 +97,7 @@ export const ProjectState = () => {
       title: "Wandart",
       subTitle: "The fastest growing wallpaper and art community",
       url: "/project/wandart",
-      liveLink: "https://github.com/Janvinsha",
+      liveLink: "https://wandart.art",
       about: "",
       builtUsing: "",
       mainImg: wandart3,

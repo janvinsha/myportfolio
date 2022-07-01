@@ -22,11 +22,11 @@ import Meta from "../components/Meta";
 import ScrollToTop from "../components/ScrollToTop";
 import Footer from "../components/Footer";
 //Image
-import aImg from "../images/abo.jpg";
+import aImg from "../images/abo.png";
 const About = () => {
   const { theme, setTheme } = useContext(ThemeContext);
   const line =
-    "Full Stack Blockchain / Javascript Engineer with 3years experience in programming. Specialties in React, Redux, Html, Css, Javacript, MVC Architecture, Test Driven Development (TDD), Git, Nodejs, Mongodb, Solidity, Ganache, Truffle, Hardhat, Web3, React Native";
+    "Full Stack Blockchain / Javascript Engineer with good experience in programming. Specialties in React, Redux, Html, Css, Javacript, MVC Architecture, Test Driven Development (TDD), Git, Nodejs, Mongodb, Solidity, Ganache, Truffle, Hardhat, Web3, React Native";
   return (
     <StyledAbout
       exit="exit"
@@ -123,9 +123,9 @@ const Image = styled.div`
     width: 90%;
     @media screen and (max-width: 900px) {
       width: 100%;
-      height: 20rem;
+      height: 25rem;
     }
-    height: 35rem;
+    height: 40rem;
     object-fit: cover;
     border-radius: 5px;
   }
