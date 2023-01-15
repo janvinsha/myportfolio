@@ -47,12 +47,12 @@ const Home = () => {
           <Hide>
             <motion.h2 variants={titleAnim} className="desk">
               {" "}
-              A Full Stack Blockchain /
+              A Full Stack Blockchain Engineer
             </motion.h2>
           </Hide>
           <Hide>
             <motion.h2 variants={titleAnim} className="desk">
-              Javascript Engineer
+              Frontend Focused
             </motion.h2>
             <Hide className="mobile">
               <motion.h2 variants={titleAnim}>
@@ -61,12 +61,12 @@ const Home = () => {
             </Hide>
             <Hide className="mobile">
               <motion.h2 variants={titleAnim}>
-                I Am A Full Stack Javascript /
+                I Am A Full Stack Blockchain Engineer
               </motion.h2>
             </Hide>
             <Hide>
               <motion.h2 variants={titleAnim} className="mobile">
-                Solidity Developer
+                Frontend Focused
               </motion.h2>
             </Hide>
           </Hide>
