@@ -47,13 +47,10 @@ const Home = () => {
           <Hide>
             <motion.h2 variants={titleAnim} className="desk">
               {" "}
-              A Full Stack Blockchain Engineer
+              A Full Stack Engineer
             </motion.h2>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnim} className="desk">
-              Frontend Focused
-            </motion.h2>
             <Hide className="mobile">
               <motion.h2 variants={titleAnim}>
                 Hi, I Am Jande Vincent.
@@ -61,12 +58,7 @@ const Home = () => {
             </Hide>
             <Hide className="mobile">
               <motion.h2 variants={titleAnim}>
-                I Am A Full Stack Blockchain Engineer
-              </motion.h2>
-            </Hide>
-            <Hide>
-              <motion.h2 variants={titleAnim} className="mobile">
-                Frontend Focused
+                I Am A Full Stack Engineer
               </motion.h2>
             </Hide>
           </Hide>

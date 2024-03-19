@@ -26,7 +26,7 @@ import aImg from "../images/abo.png";
 const About = () => {
   const { theme, setTheme } = useContext(ThemeContext);
   const line =
-    "Full Stack Blockchain / Javascript Engineer with good experience in programming. Specialties in React, Redux, Html, Css, Javacript, MVC Architecture, Test Driven Development (TDD), Git, Nodejs, Mongodb, Solidity, Ganache, Truffle, Hardhat, Web3, React Native";
+    "Full Stack Engineer with good experience in programming. Specialties in React, Redux, Html, Css, Javacript, MVC Architecture, Test Driven Development (TDD), Git, Nodejs, Mongodb, Solidity, Hardhat, Web3";
   return (
     <StyledAbout
       exit="exit"
@@ -43,17 +43,15 @@ const About = () => {
         </Image>
         <div className="Hi">
           <Hide>
-            <motion.h4 variants={titleAnim}>Jande Vincent Shater</motion.h4>
+            <motion.h4 variants={titleAnim}>Jande Vincent</motion.h4>
           </Hide>
 
           <Hide>
             <motion.h2 variants={titleAnim}>
-              Full Stack Blockchain / Javascript
+              Full Stack Engineer
             </motion.h2>
           </Hide>
-          <Hide>
-            <motion.h2 variants={titleAnim}>Engineer</motion.h2>
-          </Hide>
+         
           <Hide>
             <motion.h3 variants={sentence}>
               {line.split("").map((char, index) => {
