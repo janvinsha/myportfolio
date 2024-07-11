@@ -101,14 +101,6 @@ const Contact = () => {
 
         <motion.span>
           <Hide>
-            <motion.h3 variants={titleAnim}>MOBILE</motion.h3>
-          </Hide>
-          <Hide>
-            <motion.h4 variants={titleAnim}>+2347026228945</motion.h4>
-          </Hide>
-        </motion.span>
-        <motion.span>
-          <Hide>
             <motion.h3 variants={titleAnim}>LOCATION</motion.h3>
           </Hide>
           <Hide>
