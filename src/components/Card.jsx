@@ -4,14 +4,9 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
 import {
-  pageAnimation,
-  titleAnim,
-  imgAnim,
-  cardLeftAnim,
-  cardRightAnim,
-  fade,
-  toDownAnim,
-  photoAnim,
+
+  fade
+
 } from "../animation";
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 
@@ -41,6 +36,10 @@ const Card = ({ variants, project }) => {
 
 const Hide = styled.div`
   overflow: hidden;
+  .title{
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+  }
 `;
 
 export default Card;

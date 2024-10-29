@@ -41,7 +41,7 @@ const Home = () => {
         <div className="Hi">
           <Hide className="desk">
             <motion.h2 variants={titleAnim}>
-              Hi, I Am Jande Vincent. I Am
+              Hi, I Am Vincent Jande. I Am
             </motion.h2>
           </Hide>
           <Hide>
@@ -53,7 +53,7 @@ const Home = () => {
           <Hide>
             <Hide className="mobile">
               <motion.h2 variants={titleAnim}>
-                Hi, I Am Jande Vincent.
+                Hi, I Am Vincent Jande.
               </motion.h2>
             </Hide>
             <Hide className="mobile">
@@ -221,6 +221,7 @@ const ProjectList = styled(motion.div)`
         width: 100%;
         height: 100%;
         transition: 0.25s ease-in-out;
+        object-fit: cover;
         opacity: 0.8;
       }
       .ico {
