@@ -36,7 +36,7 @@ const Nav = () => {
           </Link>
         </span>
         <h2>
-          <Link to="/">Janvinsha</Link>{" "}
+          <Link to="/">Vincent</Link>{" "}
         </h2>
       </div>
 

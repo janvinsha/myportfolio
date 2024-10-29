@@ -27,7 +27,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/jande-vincent-1650431b9"
+          href="https://www.linkedin.com/in/jande-vincent"
           target="_blank"
         >
           <LinkedInIcon className="icon" />

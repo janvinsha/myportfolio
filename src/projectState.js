@@ -67,8 +67,24 @@ import imiomob from "./images/imiomob.png";
 
 import soldesk from "./images/soldesk.png";
 import solmob from "./images/solmob.png";
+
+import omnidesk from "./images/omnidesk.png";
+import omnimob from "./images/omnimob.png";
 export const ProjectState = () => {
   return [
+    {
+      title: "Omnivote",
+      subTitle:
+        "OmniVote is a decentralized voting platform that allows users to create and manage proposals across multiple blockchain networks seamlessly. By leveraging Chainlink's Cross-Chain Interoperability Protocol (CCIP), OmniVote enables smart contracts on different blockchains to communicate with each other, ensuring a truly omnichain governance experience. The platform supports decentralized identity and cross-chain governance to provide secure, tamper-proof voting.",
+      url: "/project/omnivote",
+      liveLink: "https://www.omnivote.xyz",
+      about: "",
+      builtUsing: "",
+      mainImg: omnidesk,
+      mobileImg: omnimob,
+      images: [omnidesk],
+      details: "Frontend: Next.js, shadcn, Tailwind Backend: Express.js, MongoDB. Blockchain: Chainlink CCIP for cross-chain communication. Identity & Security: Wagmi for authentication. Storage: MongoDB for proposals, DAO, and voting data",
+    },
     {
       title: "Solend Lite",
       subTitle:
