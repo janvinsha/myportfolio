@@ -127,17 +127,17 @@ export const ProjectState = () => {
       details:
         "Wandart is a wallpaper and art community web application, The Frontend is built using React, Redux, Figma, Adobe illustrator, Framer-motion, Styled-components, Material-UI, Bootstrap, Font-awesome icons, Axios for fetching data from the REST-Api. The Backend is a REST-Api built using Node.js, MongoDB, Cloudinary storage, Coinbase payment, Paystack payment, JSON web tokens, the API is highly secured againts XSS attacks, DOS attacks, NoSQL injection attacks and well authenticated using JSON web tokens. There is availability for subscription service which is well authenticated using webhooks from both Coinbase and Paystack payments. This project is undergoing maintenance and as such down",
     },
-    {
-      title: "Kasuwa",
-      subTitle:
-        "Kasuwa is built on the new Seaport protocol, this marketplace allows users to mint nfts, create profiles, cross swap tokens and list nfts for other nfts and/or tokens. This marketplace aims to be the best in the market, as it allows users to create a brand new nfts and lists them or list previously owned nfts, the great thing about the market is that you can list more than one nft and request that the fulfiller pays a token and/or other nfts, this marketplace accommodates all chains and tokens.",
-      url: "/project/kasuwa",
-      liveLink: "https://kasuwa-hackfs.vercel.app/",
-      mainImg: kas,
-      mobileImg: kasMob,
-      details:
-        "Kasuwa is built on the new Seaport protocol, the frontend facing app is created using Nextjs and typescript, and designed using styled components from scratch. Nftport is used to create a collection and allows users to mint brand new nfts with their preferred image. on Polygon Mainnet. Swing SDK is used to provide cross-chain swap to the marketplace so users can swap tokens from different chains for little fees. Tableland serves as the database of the application as all user profiles and listings are stored on tableland. Covalent API was used to get users assets which is displayed on the profile page for easy access to list. Poap is used for token gating as only users who have attended a particular event will be permitted to use the application. The project was published on Valist and hosted on Spheron.",
-    },
+    // {
+    //   title: "Kasuwa",
+    //   subTitle:
+    //     "Kasuwa is built on the new Seaport protocol, this marketplace allows users to mint nfts, create profiles, cross swap tokens and list nfts for other nfts and/or tokens. This marketplace aims to be the best in the market, as it allows users to create a brand new nfts and lists them or list previously owned nfts, the great thing about the market is that you can list more than one nft and request that the fulfiller pays a token and/or other nfts, this marketplace accommodates all chains and tokens.",
+    //   url: "/project/kasuwa",
+    //   liveLink: "https://kasuwa-hackfs.vercel.app/",
+    //   mainImg: kas,
+    //   mobileImg: kasMob,
+    //   details:
+    //     "Kasuwa is built on the new Seaport protocol, the frontend facing app is created using Nextjs and typescript, and designed using styled components from scratch. Nftport is used to create a collection and allows users to mint brand new nfts with their preferred image. on Polygon Mainnet. Swing SDK is used to provide cross-chain swap to the marketplace so users can swap tokens from different chains for little fees. Tableland serves as the database of the application as all user profiles and listings are stored on tableland. Covalent API was used to get users assets which is displayed on the profile page for easy access to list. Poap is used for token gating as only users who have attended a particular event will be permitted to use the application. The project was published on Valist and hosted on Spheron.",
+    // },
     {
       title: "Brainly",
       subTitle: "An interactive web3 game",
