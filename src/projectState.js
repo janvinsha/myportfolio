@@ -70,8 +70,23 @@ import solmob from "./images/solmob.png";
 
 import omnidesk from "./images/omnidesk.png";
 import omnimob from "./images/omnimob.png";
+
+import nexdesk from "./images/nexdesk.png";
+import nexmob from "./images/nexmob.png";
 export const ProjectState = () => {
   return [
+    {
+      title: "Nexaero Labs",
+      subTitle: "At NexAero Labs, we bring your digital vision to life with professional, fast, and affordable website solutions. Whether you’re a startup or an established brand, our expert team designs stunning, user-friendly websites that drive growth.",
+      url: "/project/nexaerolabs",
+      liveLink: "https://www.nexaerolabs.com/",
+      about: "",
+      builtUsing: "",
+      mainImg: nexdesk,
+      mobileImg: nexmob,
+      images: [nexdesk],
+      details: "Frontend: Next.js, shadcn, Tailwind",
+    },
     {
       title: "Omnivote",
       subTitle:
@@ -146,17 +161,17 @@ export const ProjectState = () => {
         "Janvinsha Stores is an e-commerce web application, The Frontend is built using React, Redux, Figma, Framer-motion, Styled-components, Bootstrap, Font-awesome icons, Axios for fetching data from the REST-Api. The Backend is a REST-Api built using Node.js, MongoDB, Cloudinary storage, Paystack payment, JSON web tokens, the API is highly secured againts XSS attacks, DOS attacks, NoSQL injection attacks and well authenticated using JSON web tokens.  ",
     },
 
-    {
-      title: "Wave",
-      subTitle: "Connect your wallet and say Hello to me",
-      url: "/project/wave",
-      liveLink: "https://waveportal-starter-project.jandevincent.repl.co/",
-      mainImg: wave1,
-      mobileImg: wave2,
-      images: [wave1],
-      details:
-        "A decentralized application where users can connect wallet and anonymously send me a message. The smart contract was created using openzeppelin and hardhat environment.  The Frontend is created using React, ethers is used to connect to the smart contract.",
-    },
+    // {
+    //   title: "Wave",
+    //   subTitle: "Connect your wallet and say Hello to me",
+    //   url: "/project/wave",
+    //   liveLink: "https://waveportal-starter-project.jandevincent.repl.co/",
+    //   mainImg: wave1,
+    //   mobileImg: wave2,
+    //   images: [wave1],
+    //   details:
+    //     "A decentralized application where users can connect wallet and anonymously send me a message. The smart contract was created using openzeppelin and hardhat environment.  The Frontend is created using React, ethers is used to connect to the smart contract.",
+    // },
     {
       title: "Yooci",
       subTitle:
@@ -203,96 +218,96 @@ export const ProjectState = () => {
         "Capture is a demo portfolio site built to show my skill in React, it was built using React, Framer-motion, Styled-components, Font-awesome icons and Figma.",
     },
 
-    {
-      title: "Unreal Market",
-      subTitle:
-        "This Marketplace is truly unreal, users can create collections and add Nfts to that collection, edit their profile, and comment on their favorite Nfts. Users can buy crypto using fiat and also cross swap tokens to fit their spending needs on the marketplace. This marketplace tries to fit in all the needs of the user without necessarily moving to another Dapp",
-      url: "/project/unreal-market",
-      liveLink: "http://unreal-market.netlify.app/",
-      mainImg: unre,
-      mobileImg: unre,
-      details:
-        "A lot of sponsors' technologies were used as they were beneficial to the project. Two smart contracts were written, one deployed using Hardhart to POLYGON Mumbai tesnet, the other an airdrop contract which utilizes WORLDCOIN deployed using ZSYNC. 3 sponsors tech was integrated for login WALLETCONNECT, UNSTOPPABLE DOMAINS, and COINBASE WALLET. IPFS was used to upload all NFT and image data. A subgraph was created using THEGRAPH to query blockchain data. TRANSAK was integrated to allow users buy crypto using Fiat currency. SWING was used to build a cross chain swap. WAKU was used to allow users to comment on NFT. COVALENT was used to query NFT transaction history data",
-    },
-    {
-      title: "SpeakOut",
-      subTitle:
-        "SpeakOut is a web3 social media platform where users can connect and share their experiences",
-      url: "/project/speakout",
-      liveLink: "https://speak-out.netlify.app/",
-      mainImg: so1,
-      mobileImg: somob,
-      details:
-        "This project is a blockchain social media application where users connect and share their experiences, users can decide to go anonymous too. The web application allows users to make posts, shorts(short videos, uploaded using LivePeer API), create comments, collect comments and posts which is stored in the users library, edit profile, follow users, etc. The web application uses Lens Protocol which is a Web3 social graph on the Polygon Proof-of-Stake blockchain for almost all app data. Lens Api is used throughout the application to give users seamless experience in interacting with the blockchain.",
-    },
-    {
-      title: "Voice Dao",
-      subTitle: "",
-      url: "/project/voicedao",
-      liveLink: "https://voicedao.netlify.app/",
-      mainImg: voicedesk,
-      mobileImg: voicemob,
-      details:
-        "This project is a blockchain social media application where users connect and share their experiences, users can decide to go anonymous too. The web application allows users to make posts, shorts(short videos, uploaded using LivePeer API), create comments, collect comments and posts which is stored in the users library, edit profile, follow users, etc. The web application uses Lens Protocol which is a Web3 social graph on the Polygon Proof-of-Stake blockchain for almost all app data. Lens Api is used throughout the application to give users seamless experience in interacting with the blockchain.",
-    },
-    {
-      title: "Storeama",
-      subTitle:
-        "Storeama is a decentralized storage platform on the Filecoin virtual network, it utilizes ipfs and a smart contract to store all kinds of filex, ranging from audio, video and documents",
-      url: "/project/storeama",
-      liveLink: "https://storeama.netlify.app/",
-      mainImg: storedesk,
-      mobileImg: storemob,
-      details:
-        "Storeama is a decentralized storage platform on the Filecoin virtual network, it utilizes ipfs and a smart contract to store all kinds of filex, ranging from audio, video and documents. Storeama helps organize and store files which can be accessed easily. Storeama is like google drive but for blockchain        ",
-    },
+    // {
+    //   title: "Unreal Market",
+    //   subTitle:
+    //     "This Marketplace is truly unreal, users can create collections and add Nfts to that collection, edit their profile, and comment on their favorite Nfts. Users can buy crypto using fiat and also cross swap tokens to fit their spending needs on the marketplace. This marketplace tries to fit in all the needs of the user without necessarily moving to another Dapp",
+    //   url: "/project/unreal-market",
+    //   liveLink: "http://unreal-market.netlify.app/",
+    //   mainImg: unre,
+    //   mobileImg: unre,
+    //   details:
+    //     "A lot of sponsors' technologies were used as they were beneficial to the project. Two smart contracts were written, one deployed using Hardhart to POLYGON Mumbai tesnet, the other an airdrop contract which utilizes WORLDCOIN deployed using ZSYNC. 3 sponsors tech was integrated for login WALLETCONNECT, UNSTOPPABLE DOMAINS, and COINBASE WALLET. IPFS was used to upload all NFT and image data. A subgraph was created using THEGRAPH to query blockchain data. TRANSAK was integrated to allow users buy crypto using Fiat currency. SWING was used to build a cross chain swap. WAKU was used to allow users to comment on NFT. COVALENT was used to query NFT transaction history data",
+    // },
+    // {
+    //   title: "SpeakOut",
+    //   subTitle:
+    //     "SpeakOut is a web3 social media platform where users can connect and share their experiences",
+    //   url: "/project/speakout",
+    //   liveLink: "https://speak-out.netlify.app/",
+    //   mainImg: so1,
+    //   mobileImg: somob,
+    //   details:
+    //     "This project is a blockchain social media application where users connect and share their experiences, users can decide to go anonymous too. The web application allows users to make posts, shorts(short videos, uploaded using LivePeer API), create comments, collect comments and posts which is stored in the users library, edit profile, follow users, etc. The web application uses Lens Protocol which is a Web3 social graph on the Polygon Proof-of-Stake blockchain for almost all app data. Lens Api is used throughout the application to give users seamless experience in interacting with the blockchain.",
+    // },
+    // {
+    //   title: "Voice Dao",
+    //   subTitle: "",
+    //   url: "/project/voicedao",
+    //   liveLink: "https://voicedao.netlify.app/",
+    //   mainImg: voicedesk,
+    //   mobileImg: voicemob,
+    //   details:
+    //     "This project is a blockchain social media application where users connect and share their experiences, users can decide to go anonymous too. The web application allows users to make posts, shorts(short videos, uploaded using LivePeer API), create comments, collect comments and posts which is stored in the users library, edit profile, follow users, etc. The web application uses Lens Protocol which is a Web3 social graph on the Polygon Proof-of-Stake blockchain for almost all app data. Lens Api is used throughout the application to give users seamless experience in interacting with the blockchain.",
+    // },
+    // {
+    //   title: "Storeama",
+    //   subTitle:
+    //     "Storeama is a decentralized storage platform on the Filecoin virtual network, it utilizes ipfs and a smart contract to store all kinds of filex, ranging from audio, video and documents",
+    //   url: "/project/storeama",
+    //   liveLink: "https://storeama.netlify.app/",
+    //   mainImg: storedesk,
+    //   mobileImg: storemob,
+    //   details:
+    //     "Storeama is a decentralized storage platform on the Filecoin virtual network, it utilizes ipfs and a smart contract to store all kinds of filex, ranging from audio, video and documents. Storeama helps organize and store files which can be accessed easily. Storeama is like google drive but for blockchain        ",
+    // },
    
-    {
-      title: "Zenith Market",
-      subTitle:
-        "An NFT market built using Moralis and depolyed to the Polygon Mumbai testnet",
-      url: "/project/zenith-market",
-      liveLink: "https://zenith-market.netlify.app/",
-      mainImg: zm1,
-      mobileImg: zn3,
-      details: "A community driven NFT marketplace",
-    },
+    // {
+    //   title: "Zenith Market",
+    //   subTitle:
+    //     "An NFT market built using Moralis and depolyed to the Polygon Mumbai testnet",
+    //   url: "/project/zenith-market",
+    //   liveLink: "https://zenith-market.netlify.app/",
+    //   mainImg: zm1,
+    //   mobileImg: zn3,
+    //   details: "A community driven NFT marketplace",
+    // },
 
-    {
-      title: "Buidl Domain Service",
-      subTitle:
-        "An NFT market built using Moralis and depolyed to the Polygon Mumbai testnet",
-      url: "/project/buidl-dns",
-      liveLink: "http://buidl-domain-service-frontend.vercel.app/",
-      mainImg: bns1,
-      mobileImg: bns1,
-      details:
-        "This is a domain service Web3 Dapp where you can mint domains and set records for domains, domains minted can be viewed on OpenSea as NFT's",
-    },
+    // {
+    //   title: "Buidl Domain Service",
+    //   subTitle:
+    //     "An NFT market built using Moralis and depolyed to the Polygon Mumbai testnet",
+    //   url: "/project/buidl-dns",
+    //   liveLink: "http://buidl-domain-service-frontend.vercel.app/",
+    //   mainImg: bns1,
+    //   mobileImg: bns1,
+    //   details:
+    //     "This is a domain service Web3 Dapp where you can mint domains and set records for domains, domains minted can be viewed on OpenSea as NFT's",
+    // },
 
  
-    {
-      title: "NFT Collection",
-      subTitle: "Connect your wallet and say Hello to me",
-      url: "/project/nft-collection",
-      liveLink: "https://nft-starter-project.jandevincent.repl.co/",
-      mainImg: nft1,
-      mobileImg: nft2,
-      images: [nft1],
-      details:
-        "An NFT collection created using openzeppelin and hardhat environment, deployed on Rinkeby Testnet. The Frontend is created using React, ethers is used to connect to the smart contract, collection can be viewed on Open Sea.",
-    },
-    {
-      title: "DemonSlayerDAO",
-      subTitle: "A DAO build with using ThirdWeb and React",
-      url: "/project/dao",
-      liveLink: "https://demonslayerdao.netlify.app/",
-      mainImg: dao1,
-      mobileImg: dao2,
-      images: [dao1],
-      details:
-        "A decentralized autonomous organization created using ThirdWeb, a platform where smart contracts can be created with various or no language. A membership NFT and a governance token was created to enable users who have the NFT and token Vote on proposals. The token was Airdropped to early users. ",
-    },
+    // {
+    //   title: "NFT Collection",
+    //   subTitle: "Connect your wallet and say Hello to me",
+    //   url: "/project/nft-collection",
+    //   liveLink: "https://nft-starter-project.jandevincent.repl.co/",
+    //   mainImg: nft1,
+    //   mobileImg: nft2,
+    //   images: [nft1],
+    //   details:
+    //     "An NFT collection created using openzeppelin and hardhat environment, deployed on Rinkeby Testnet. The Frontend is created using React, ethers is used to connect to the smart contract, collection can be viewed on Open Sea.",
+    // },
+    // {
+    //   title: "DemonSlayerDAO",
+    //   subTitle: "A DAO build with using ThirdWeb and React",
+    //   url: "/project/dao",
+    //   liveLink: "https://demonslayerdao.netlify.app/",
+    //   mainImg: dao1,
+    //   mobileImg: dao2,
+    //   images: [dao1],
+    //   details:
+    //     "A decentralized autonomous organization created using ThirdWeb, a platform where smart contracts can be created with various or no language. A membership NFT and a governance token was created to enable users who have the NFT and token Vote on proposals. The token was Airdropped to early users. ",
+    // },
    
   ];
 };
