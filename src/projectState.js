@@ -24,43 +24,13 @@ import mobileJvs from "./images/mobileJvs.png";
 import mobileCapture from "./images/mobileCapture.png";
 import mobileIgnite from "./images/mobileIgnite.png";
 
-import wave1 from "./images/wave1.png";
-import wave2 from "./images/wave2.png";
-import wave3 from "./images/wave3.png";
-
-import nft1 from "./images/nft1.png";
-import nft2 from "./images/nft2.png";
-
-import dao1 from "./images/Dao1.png";
-import dao2 from "./images/Dao2.png";
-
-import market1 from "./images/market1.png";
-
 import sc1 from "./images/sc1.png";
-import sc2 from "./images/sc1.png";
 import bm from "./images/bm.png";
 
-import zn3 from "./images/zn3.png";
-import zm1 from "./images/zm1.png";
-
-import bns1 from "./images/bns1.png";
-
-import somob from "./images/somo1.png";
-import so1 from "./images/so1.png";
-
-import kas from "./images/kas.png";
-import kasMob from "./images/kasmob.png";
-
-import unre from "./images/unre.png";
 
 import yoocidesk from "./images/yoocidesk.png";
 import yoocimob from "./images/yoocimob.png";
 
-import storedesk from "./images/storedesk.png";
-import storemob from "./images/storemob.png";
-
-import voicedesk from "./images/voicedesk.png";
-import voicemob from "./images/voicemob.png";
 
 import imiodesk from "./images/imiodesk.png";
 import imiomob from "./images/imiomob.png";
@@ -73,8 +43,23 @@ import omnimob from "./images/omnimob.png";
 
 import nexdesk from "./images/nexdesk.png";
 import nexmob from "./images/nexmob.png";
+
+import nexudesk from "./images/nexudesk.png";
+import nexumob from "./images/nexumob.png";
 export const ProjectState = () => {
   return [
+    {
+      title: "Nexumint",
+      subTitle: "Nexumint - Solana's Fastest DeFi ToolKit",
+      url: "/project/nexumint",
+      liveLink: "https://www.nexumint.xyz/",
+      about: "",
+      builtUsing: "",
+      mainImg: nexudesk,
+      mobileImg: nexumob,
+      images: [nexudesk],
+      details: "Nexumint is a revolutionary platform built on the Solana blockchain, designed to simplify token management and creation, enhance liquidity management, and harness AI for real-time market optimization. By offering a comprehensive suite of tools—from token lifecycle management to automated liquidity pool adjustments—Nexumint empowers developers, DeFi projects, and institutional investors to navigate the complexities of token economies with ease. ",
+    },
     {
       title: "Nexaero Labs",
       subTitle: "At NexAero Labs, we bring your digital vision to life with professional, fast, and affordable website solutions. Whether you’re a startup or an established brand, our expert team designs stunning, user-friendly websites that drive growth.",
@@ -118,7 +103,7 @@ export const ProjectState = () => {
       title: "Wandart",
       subTitle: "The fastest growing wallpaper and art community",
       url: "/project/wandart",
-      liveLink: "https://wandart.art",
+      liveLink: "https://wandart.xyz",
       about: "",
       builtUsing: "",
       mainImg: wandart3,

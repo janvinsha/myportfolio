@@ -22,11 +22,11 @@ import Meta from "../components/Meta";
 import ScrollToTop from "../components/ScrollToTop";
 import Footer from "../components/Footer";
 //Image
-import aImg from "../images/abo.png";
+import aImg from "../images/pp.jpg";
 const About = () => {
   const { theme, setTheme } = useContext(ThemeContext);
   const line =
-    "Full Stack Engineer with good experience in programming. Specialties in React, Redux, Html, Css, Javacript, MVC Architecture, Test Driven Development (TDD), Git, Nodejs, Mongodb, Solidity, Hardhat, Web3";
+    "As a Full Stack Engineer and AI Solutions Engineer, I specialize in delivering user-centric web applications, automating AI applications, and blockchain solutions. Proficient in JavaScript/TypeScript, React, Next.js, Node.js, and blockchain technologies like Solidity and Rust (Anchor), I excel at transforming complex designs into seamless user experiences and innovative AI-driven solutions.";
   return (
     <StyledAbout
       exit="exit"
