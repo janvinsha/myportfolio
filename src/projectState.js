@@ -134,17 +134,17 @@ export const ProjectState = () => {
         "A highly interactive game where user mint a membership token to get access, play and compete with each other for the top position which is displayed on the dashboard",
     },
 
-    {
-      title: "Janvinsha Stores",
-      subTitle: "An E-commerce website",
-      url: "/project/janvinsha-stores",
-      liveLink: "https://janvinshastores.netlify.app/",
-      mainImg: jvs1,
-      mobileImg: mobileJvs,
-      images: [jvs2, jvs3, jvs4],
-      details:
-        "Janvinsha Stores is an e-commerce web application, The Frontend is built using React, Redux, Figma, Framer-motion, Styled-components, Bootstrap, Font-awesome icons, Axios for fetching data from the REST-Api. The Backend is a REST-Api built using Node.js, MongoDB, Cloudinary storage, Paystack payment, JSON web tokens, the API is highly secured againts XSS attacks, DOS attacks, NoSQL injection attacks and well authenticated using JSON web tokens.  ",
-    },
+    // {
+    //   title: "Janvinsha Stores",
+    //   subTitle: "An E-commerce website",
+    //   url: "/project/janvinsha-stores",
+    //   liveLink: "https://janvinshastores.netlify.app/",
+    //   mainImg: jvs1,
+    //   mobileImg: mobileJvs,
+    //   images: [jvs2, jvs3, jvs4],
+    //   details:
+    //     "Janvinsha Stores is an e-commerce web application, The Frontend is built using React, Redux, Figma, Framer-motion, Styled-components, Bootstrap, Font-awesome icons, Axios for fetching data from the REST-Api. The Backend is a REST-Api built using Node.js, MongoDB, Cloudinary storage, Paystack payment, JSON web tokens, the API is highly secured againts XSS attacks, DOS attacks, NoSQL injection attacks and well authenticated using JSON web tokens.  ",
+    // },
 
     // {
     //   title: "Wave",
